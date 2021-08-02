@@ -8,3 +8,6 @@ wordpress_db_pass_secret_key: root_password
 wordpress_external_port: 30180
 wordpress_storage_class: local-storage
 wordpress_storage_request: 10Gi
+wordpress_rollout_retries: 10
+wordpress_rollout_delay: 5
+
